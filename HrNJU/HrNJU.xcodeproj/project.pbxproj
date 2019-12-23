@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1807F16023B05A55008DA896 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807F15F23B05A55008DA896 /* AppDelegate.swift */; };
+		1807F16223B05A55008DA896 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807F16123B05A55008DA896 /* SceneDelegate.swift */; };
+		1807F16423B05A55008DA896 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807F16323B05A55008DA896 /* ContentView.swift */; };
+		1807F16623B05A57008DA896 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1807F16523B05A57008DA896 /* Assets.xcassets */; };
+		1807F16923B05A57008DA896 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1807F16823B05A57008DA896 /* Preview Assets.xcassets */; };
+		1807F16C23B05A57008DA896 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1807F16A23B05A57008DA896 /* LaunchScreen.storyboard */; };
+		1807F17423B05D41008DA896 /* NewsCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807F17323B05D41008DA896 /* NewsCellView.swift */; };
+		1807F17623B05D99008DA896 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807F17523B05D99008DA896 /* News.swift */; };
+		1807F17823B05EF0008DA896 /* NewsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807F17723B05EF0008DA896 /* NewsData.swift */; };
+		1807F17C23B062BC008DA896 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807F17B23B062BC008DA896 /* WebView.swift */; };
+		1807F17E23B078C5008DA896 /* HtmlString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807F17D23B078C5008DA896 /* HtmlString.swift */; };
+		3CD571305E21EC0C4AE49637 /* Pods_HrNJU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD23A69C2B06451070E23852 /* Pods_HrNJU.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		010FD06D74AFCF0EF98209A6 /* Pods-HrNJU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HrNJU.debug.xcconfig"; path = "Target Support Files/Pods-HrNJU/Pods-HrNJU.debug.xcconfig"; sourceTree = "<group>"; };
+		1807F15C23B05A55008DA896 /* HrNJU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HrNJU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1807F15F23B05A55008DA896 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1807F16123B05A55008DA896 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1807F16323B05A55008DA896 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1807F16523B05A57008DA896 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1807F16823B05A57008DA896 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1807F16B23B05A57008DA896 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1807F16D23B05A57008DA896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1807F17323B05D41008DA896 /* NewsCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCellView.swift; sourceTree = "<group>"; };
+		1807F17523B05D99008DA896 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		1807F17723B05EF0008DA896 /* NewsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsData.swift; sourceTree = "<group>"; };
+		1807F17B23B062BC008DA896 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		1807F17D23B078C5008DA896 /* HtmlString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HtmlString.swift; sourceTree = "<group>"; };
+		BD23A69C2B06451070E23852 /* Pods_HrNJU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HrNJU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30A16AA714D4E7BDFF51AAF /* Pods-HrNJU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HrNJU.release.xcconfig"; path = "Target Support Files/Pods-HrNJU/Pods-HrNJU.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1807F15923B05A55008DA896 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD571305E21EC0C4AE49637 /* Pods_HrNJU.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1807F15323B05A55008DA896 = {
+			isa = PBXGroup;
+			children = (
+				1807F15E23B05A55008DA896 /* HrNJU */,
+				1807F15D23B05A55008DA896 /* Products */,
+				C5526A3042F2DF4B95A5A8ED /* Pods */,
+				DEF79906CE7665AEB4448CAE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1807F15D23B05A55008DA896 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1807F15C23B05A55008DA896 /* HrNJU.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1807F15E23B05A55008DA896 /* HrNJU */ = {
+			isa = PBXGroup;
+			children = (
+				1807F17323B05D41008DA896 /* NewsCellView.swift */,
+				1807F17723B05EF0008DA896 /* NewsData.swift */,
+				1807F17523B05D99008DA896 /* News.swift */,
+				1807F15F23B05A55008DA896 /* AppDelegate.swift */,
+				1807F16123B05A55008DA896 /* SceneDelegate.swift */,
+				1807F17D23B078C5008DA896 /* HtmlString.swift */,
+				1807F16323B05A55008DA896 /* ContentView.swift */,
+				1807F16523B05A57008DA896 /* Assets.xcassets */,
+				1807F16A23B05A57008DA896 /* LaunchScreen.storyboard */,
+				1807F16D23B05A57008DA896 /* Info.plist */,
+				1807F16723B05A57008DA896 /* Preview Content */,
+				1807F17B23B062BC008DA896 /* WebView.swift */,
+			);
+			path = HrNJU;
+			sourceTree = "<group>";
+		};
+		1807F16723B05A57008DA896 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1807F16823B05A57008DA896 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C5526A3042F2DF4B95A5A8ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				010FD06D74AFCF0EF98209A6 /* Pods-HrNJU.debug.xcconfig */,
+				F30A16AA714D4E7BDFF51AAF /* Pods-HrNJU.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DEF79906CE7665AEB4448CAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD23A69C2B06451070E23852 /* Pods_HrNJU.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1807F15B23B05A55008DA896 /* HrNJU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1807F17023B05A57008DA896 /* Build configuration list for PBXNativeTarget "HrNJU" */;
+			buildPhases = (
+				6A8BC25865AFC00A3046F6B3 /* [CP] Check Pods Manifest.lock */,
+				1807F15823B05A55008DA896 /* Sources */,
+				1807F15923B05A55008DA896 /* Frameworks */,
+				1807F15A23B05A55008DA896 /* Resources */,
+				9B36EB0C674694CBABD14C84 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HrNJU;
+			productName = HrNJU;
+			productReference = 1807F15C23B05A55008DA896 /* HrNJU.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1807F15423B05A55008DA896 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = kadaoa;
+				TargetAttributes = {
+					1807F15B23B05A55008DA896 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 1807F15723B05A55008DA896 /* Build configuration list for PBXProject "HrNJU" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1807F15323B05A55008DA896;
+			productRefGroup = 1807F15D23B05A55008DA896 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1807F15B23B05A55008DA896 /* HrNJU */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1807F15A23B05A55008DA896 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1807F16C23B05A57008DA896 /* LaunchScreen.storyboard in Resources */,
+				1807F16923B05A57008DA896 /* Preview Assets.xcassets in Resources */,
+				1807F16623B05A57008DA896 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A8BC25865AFC00A3046F6B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HrNJU-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B36EB0C674694CBABD14C84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HrNJU/Pods-HrNJU-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HrNJU/Pods-HrNJU-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HrNJU/Pods-HrNJU-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1807F15823B05A55008DA896 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1807F16023B05A55008DA896 /* AppDelegate.swift in Sources */,
+				1807F17423B05D41008DA896 /* NewsCellView.swift in Sources */,
+				1807F17823B05EF0008DA896 /* NewsData.swift in Sources */,
+				1807F16223B05A55008DA896 /* SceneDelegate.swift in Sources */,
+				1807F17623B05D99008DA896 /* News.swift in Sources */,
+				1807F16423B05A55008DA896 /* ContentView.swift in Sources */,
+				1807F17C23B062BC008DA896 /* WebView.swift in Sources */,
+				1807F17E23B078C5008DA896 /* HtmlString.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1807F16A23B05A57008DA896 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1807F16B23B05A57008DA896 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1807F16E23B05A57008DA896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1807F16F23B05A57008DA896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1807F17123B05A57008DA896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 010FD06D74AFCF0EF98209A6 /* Pods-HrNJU.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HrNJU/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HrNJU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.nju.HrNJU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1807F17223B05A57008DA896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F30A16AA714D4E7BDFF51AAF /* Pods-HrNJU.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HrNJU/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HrNJU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.nju.HrNJU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1807F15723B05A55008DA896 /* Build configuration list for PBXProject "HrNJU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1807F16E23B05A57008DA896 /* Debug */,
+				1807F16F23B05A57008DA896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1807F17023B05A57008DA896 /* Build configuration list for PBXNativeTarget "HrNJU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1807F17123B05A57008DA896 /* Debug */,
+				1807F17223B05A57008DA896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1807F15423B05A55008DA896 /* Project object */;
+}
